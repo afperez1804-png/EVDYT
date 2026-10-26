@@ -1,0 +1,345 @@
+"Player","Pos","Tm","G","MP","PTS","Grupo","Prob","Outlier"
+"Precious Achiuwa","C","TOR",73,23.6,9.1,"Ruido",0,0.5
+"Steven Adams","C","MEM",76,26.3,6.9,"Grupo 1",0.09,0.07
+"Bam Adebayo","C","MIA",56,32.6,19.1,"Ruido",0,0.73
+"LaMarcus Aldridge","C","BRK",47,22.3,12.9,"Ruido",0,0.58
+"Nickeil Alexander-Walker","SG","TOT",65,22.6,10.6,"Grupo 2",0.18,0.28
+"Grayson Allen","SG","MIL",66,27.3,11.1,"Ruido",0,0.65
+"Jarrett Allen","C","CLE",56,32.3,16.1,"Ruido",0,0.64
+"Jose Alvarado","PG","NOP",54,15.4,6.1,"Grupo 2",0.24,0.23
+"Kyle Anderson","PF","MEM",69,21.5,7.6,"Grupo 3",0.02,0.3
+"Giannis Antetokounmpo","PF","MIL",67,32.9,29.9,"Ruido",0,0.77
+"Carmelo Anthony","PF","LAL",69,26,13.3,"Ruido",0,0.49
+"Cole Anthony","PG","ORL",65,31.7,16.3,"Grupo 2",0.36,0.08
+"OG Anunoby","SF","TOR",48,36,17.1,"Ruido",0,0.46
+"Trevor Ariza","SF","LAL",24,19.3,4,"Ruido",0,0.53
+"D.J. Augustin","PG","TOT",55,16.1,5.3,"Ruido",0,0.77
+"Deni Avdija","SF","WAS",82,24.2,8.4,"Grupo 3",0.07,0.27
+"Deandre Ayton","C","PHO",58,29.5,17.2,"Grupo 1",0.02,0.13
+"Marvin Bagley III","PF","TOT",48,23.9,11.3,"Grupo 1",0.09,0.07
+"LaMelo Ball","PG","CHO",75,32.3,20.1,"Grupo 2",0.12,0.33
+"Lonzo Ball","PG","CHI",35,34.6,13,"Ruido",0,0.55
+"Mo Bamba","C","ORL",71,25.7,10.6,"Ruido",0,0.72
+"Desmond Bane","SF","MEM",76,29.8,18.2,"Grupo 2",0.01,0.41
+"Harrison Barnes","PF","SAC",77,33.6,16.4,"Grupo 2",0.1,0.35
+"Scottie Barnes","PF","TOR",74,35.4,15.3,"Ruido",0,0.46
+"RJ Barrett","SF","NYK",70,34.5,20,"Ruido",0,0.43
+"Will Barton","SG","DEN",71,32.1,14.7,"Grupo 2",0.23,0.23
+"Keita Bates-Diop","SF","SAS",59,16.2,5.7,"Ruido",0,0.5
+"Nicolas Batum","PF","LAC",59,24.8,8.3,"Ruido",0,0.61
+"Darius Bazley","PF","OKC",69,27.9,10.8,"Grupo 3",0.15,0.19
+"Bradley Beal","SG","WAS",40,36,23.2,"Ruido",0,0.59
+"Malik Beasley","SG","MIN",79,25,12.1,"Ruido",0,0.77
+"DeAndre' Bembry","SF","TOT",56,18.3,5.1,"Grupo 3",0.05,0.28
+"Patrick Beverley","PG","MIN",58,25.4,9.2,"Grupo 2",0.17,0.28
+"Saddiq Bey","SF","DET",82,33,16.1,"Grupo 2",0.2,0.26
+"Khem Birch","C","TOR",55,18,4.5,"Grupo 1",0.1,0.06
+"Nemanja Bjelica","C","GSW",71,16.1,6.1,"Grupo 3",0.05,0.28
+"Eric Bledsoe","PG","LAC",54,25.2,9.9,"Grupo 2",0.4,0.01
+"Bogdan Bogdanovi?","SG","ATL",63,29.3,15.1,"Grupo 2",0,0.41
+"Bojan Bogdanovi?","PF","UTA",69,30.9,18.1,"Grupo 2",0.35,0.09
+"Devin Booker","SG","PHO",68,34.5,26.8,"Grupo 2",0.37,0.06
+"Chris Boucher","PF","TOR",80,21.1,9.4,"Ruido",0,0.64
+"Avery Bradley","SG","LAL",62,22.7,6.4,"Ruido",0,0.68
+"Mikal Bridges","SF","PHO",82,34.8,14.2,"Ruido",0,0.42
+"Miles Bridges","PF","CHO",80,35.5,20.2,"Grupo 2",0,0.41
+"Oshae Brissett","SF","IND",67,23.3,9.1,"Grupo 3",0.07,0.27
+"Malcolm Brogdon","PG","IND",36,33.5,19.1,"Grupo 2",0,0.41
+"Armoni Brooks","SG","TOT",54,15.6,5.3,"Ruido",0,0.72
+"Dillon Brooks","SF","MEM",32,27.7,18.4,"Grupo 2",0.23,0.24
+"Bruce Brown","SF","BRK",72,24.6,9,"Grupo 3",0.28,0.06
+"Jaylen Brown","SF","BOS",66,33.6,23.6,"Grupo 2",0.14,0.31
+"Troy Brown Jr.","SF","CHI",66,16,4.3,"Ruido",0,0.5
+"Jalen Brunson","PG","DAL",79,31.9,16.3,"Grupo 2",0.03,0.39
+"Thomas Bryant","C","WAS",27,16.3,7.4,"Ruido",0,0.55
+"Reggie Bullock","SF","DAL",68,28,8.6,"Ruido",0,0.68
+"Alec Burks","SG","NYK",81,28.6,11.7,"Grupo 2",0.2,0.26
+"Jimmy Butler","SF","MIA",57,33.9,21.4,"Ruido",0,0.79
+"Kentavious Caldwell-Pope","SG","WAS",77,30.2,13.2,"Grupo 2",0.08,0.36
+"Facundo Campazzo","PG","DEN",65,18.2,5.1,"Ruido",0,0.47
+"Clint Capela","C","ATL",74,27.6,11.1,"Ruido",0,0.69
+"Wendell Carter Jr.","C","ORL",62,29.9,15,"Grupo 3",0.26,0.07
+"Alex Caruso","SG","CHI",41,28,7.4,"Grupo 2",0.22,0.24
+"Josh Christopher","SG","HOU",74,18,7.9,"Grupo 2",0.06,0.37
+"Brandon Clarke","PF","MEM",64,19.5,10.4,"Grupo 1",0.04,0.12
+"Jordan Clarkson","SG","UTA",79,27.1,16,"Grupo 2",0.1,0.34
+"Nic Claxton","C","BRK",47,20.7,8.7,"Grupo 1",0.24,0
+"Amir Coffey","SG","LAC",69,22.7,9,"Grupo 2",0.22,0.24
+"John Collins","PF","ATL",54,30.8,16.2,"Grupo 3",0.17,0.18
+"Zach Collins","PF","SAS",28,17.9,7.8,"Grupo 3",0.35,0
+"Mike Conley","PG","UTA",72,28.6,13.7,"Ruido",0,0.44
+"Pat Connaughton","SG","MIL",65,26,9.9,"Ruido",0,0.69
+"DeMarcus Cousins","C","TOT",48,15,9,"Grupo 3",0.19,0.15
+"Robert Covington","PF","TOT",71,27.3,8.5,"Ruido",0,0.74
+"Torrey Craig","SF","TOT",78,20.5,6.6,"Ruido",0,0.48
+"Jae Crowder","PF","PHO",67,28.1,9.4,"Ruido",0,0.55
+"Cade Cunningham","PG","DET",64,32.6,17.4,"Grupo 2",0.14,0.32
+"Seth Curry","SG","TOT",64,33.4,15,"Ruido",0,0.51
+"Stephen Curry","PG","GSW",64,34.5,25.5,"Ruido",0,0.51
+"Anthony Davis","C","LAL",40,35.1,23.2,"Ruido",0,0.73
+"Terence Davis","SG","SAC",30,17.9,10.4,"Ruido",0,0.41
+"Dewayne Dedmon","C","MIA",67,15.9,6.3,"Ruido",0,0.61
+"DeMar DeRozan","PF","CHI",76,36.1,27.9,"Ruido",0,0.82
+"Hamidou Diallo","SG","DET",58,21.9,11,"Grupo 3",0.2,0.14
+"Spencer Dinwiddie","PG","TOT",67,29.6,13.7,"Grupo 2",0.35,0.1
+"Donte DiVincenzo","SG","TOT",42,24,9,"Grupo 2",0.05,0.38
+"Luka Don?i?","PG","DAL",65,35.4,28.4,"Grupo 2",0.31,0.15
+"Luguentz Dort","SF","OKC",51,32.6,17.2,"Grupo 2",0.07,0.36
+"Ayo Dosunmu","SG","CHI",77,27.4,8.8,"Grupo 2",0.35,0.09
+"Goran Dragi?","PG","TOT",21,23.7,7.5,"Grupo 2",0.32,0.13
+"Andre Drummond","C","TOT",73,19.7,7.9,"Grupo 1",0.04,0.11
+"Chris Duarte","SG","IND",55,28,13.1,"Grupo 2",0.14,0.31
+"David Duke Jr.","PG","BRK",22,15.5,4.7,"Ruido",0,0.51
+"Kevin Durant","PF","BRK",55,37.2,29.9,"Ruido",0,0.62
+"Anthony Edwards","SG","MIN",72,34.3,21.3,"Grupo 2",0.23,0.23
+"Kessler Edwards","SF","BRK",48,20.6,5.9,"Ruido",0,0.69
+"CJ Elleby","SF","POR",58,20.2,5.8,"Grupo 3",0.19,0.16
+"Wayne Ellington","SG","LAL",43,18.8,6.7,"Ruido",0,0.86
+"Joel Embiid","C","PHI",68,33.8,30.6,"Ruido",0,0.76
+"Drew Eubanks","C","TOT",71,17.5,7.7,"Grupo 1",0.05,0.11
+"Derrick Favors","C","OKC",39,16.7,5.3,"Ruido",0,0.56
+"Dorian Finney-Smith","PF","DAL",80,33.1,11,"Ruido",0,0.55
+"Bryn Forbes","SG","TOT",75,17.1,8.8,"Ruido",0,0.47
+"Evan Fournier","SG","NYK",80,29.5,14.1,"Ruido",0,0.72
+"De'Aaron Fox","PG","SAC",59,35.3,23.2,"Ruido",0,0.6
+"Daniel Gafford","C","WAS",72,20.1,9.4,"Grupo 1",0.02,0.13
+"Danilo Gallinari","PF","ATL",66,25.3,11.7,"Ruido",0,0.45
+"Darius Garland","PG","CLE",68,35.7,21.7,"Ruido",0,0.78
+"Rudy Gay","PF","UTA",55,18.9,8.1,"Ruido",0,0.53
+"Paul George","SF","LAC",31,34.7,24.3,"Grupo 2",0.37,0.06
+"Taj Gibson","C","NYK",52,18.2,4.4,"Ruido",0,0.78
+"Josh Giddey","SG","OKC",54,31.5,12.5,"Grupo 2",0.05,0.38
+"Shai Gilgeous-Alexander","PG","OKC",56,34.7,24.5,"Ruido",0,0.59
+"Rudy Gobert","C","UTA",66,32.1,15.6,"Ruido",0,0.48
+"Aaron Gordon","PF","DEN",75,31.7,15,"Ruido",0,0.56
+"Eric Gordon","SG","HOU",57,29.3,13.4,"Ruido",0,0.47
+"Devonte' Graham","PG","NOP",76,28.4,11.9,"Ruido",0,0.73
+"Jerami Grant","PF","DET",47,31.9,19.2,"Grupo 2",0.21,0.25
+"Danny Green","SF","PHI",62,21.8,5.9,"Ruido",0,0.8
+"Draymond Green","PF","GSW",46,28.9,7.5,"Grupo 2",0.25,0.22
+"Jalen Green","SG","HOU",67,31.9,17.3,"Grupo 2",0.33,0.12
+"JaMychal Green","PF","DEN",67,16.2,6.4,"Grupo 3",0.1,0.24
+"Javonte Green","SF","CHI",65,23.4,7.2,"Grupo 3",0.08,0.26
+"Jeff Green","C","DEN",75,24.7,10.3,"Ruido",0,0.6
+"Josh Green","SG","DAL",67,15.5,4.8,"Grupo 3",0.23,0.11
+"Blake Griffin","PF","BRK",56,17.1,6.4,"Grupo 3",0.26,0.08
+"Quentin Grimes","SG","NYK",46,17.1,6,"Ruido",0,0.76
+"Rui Hachimura","PF","WAS",42,22.5,11.3,"Grupo 3",0.26,0.1
+"Tyrese Haliburton","SG","TOT",77,35,15.3,"Ruido",0,0.59
+"R.J. Hampton","SG","ORL",64,21.9,7.6,"Grupo 2",0.35,0.09
+"Tim Hardaway Jr.","SG","DAL",42,29.6,14.2,"Grupo 2",0.1,0.34
+"James Harden","PG","TOT",65,37.2,22,"Ruido",0,0.66
+"Maurice Harkless","SF","SAC",47,18.4,4.6,"Ruido",0,0.61
+"Montrezl Harrell","C","TOT",71,23.1,13.1,"Ruido",0,0.77
+"Gary Harris","SG","ORL",61,28.4,11.1,"Grupo 2",0.05,0.38
+"Tobias Harris","PF","PHI",73,34.8,17.2,"Ruido",0,0.54
+"Josh Hart","SG","TOT",54,33.2,14.9,"Grupo 2",0.08,0.36
+"Isaiah Hartenstein","C","LAC",68,17.9,8.3,"Ruido",0,0.41
+"Jaxson Hayes","C","NOP",70,20,9.3,"Ruido",0,0.47
+"Killian Hayes","PG","DET",66,25,6.9,"Grupo 2",0.27,0.19
+"Gordon Hayward","SF","CHO",49,31.9,15.9,"Grupo 2",0.14,0.31
+"Willy Hernangómez","C","NOP",50,16.8,9.1,"Ruido",0,0.48
+"Tyler Herro","SG","MIA",66,32.6,20.7,"Grupo 2",0.32,0.13
+"Buddy Hield","SG","TOT",81,30.9,15.6,"Ruido",0,0.54
+"George Hill","SG","MIL",54,23.2,6.2,"Grupo 2",0.1,0.34
+"Aaron Holiday","PG","TOT",63,16.2,6.3,"Grupo 2",0.24,0.23
+"Jrue Holiday","PG","MIL",67,32.9,18.3,"Grupo 2",0.28,0.18
+"Justin Holiday","SF","TOT",74,27.8,10.1,"Ruido",0,0.69
+"Richaun Holmes","C","SAC",45,23.9,10.4,"Grupo 1",0.1,0.06
+"Al Horford","C","BOS",69,29.1,10.2,"Grupo 3",0.27,0.08
+"Talen Horton-Tucker","SG","LAL",60,25.2,10,"Ruido",0,0.43
+"Danuel House Jr.","SF","TOT",42,17.3,5.9,"Ruido",0,0.41
+"Dwight Howard","C","LAL",60,16.2,6.2,"Ruido",0,0.48
+"Kevin Huerter","SG","ATL",74,29.6,12.1,"Ruido",0,0.49
+"De'Andre Hunter","SF","ATL",53,29.8,13.4,"Grupo 3",0.17,0.18
+"Bones Hyland","PG","DEN",69,19,10.1,"Grupo 2",0.11,0.33
+"Serge Ibaka","C","TOT",54,16.2,6.8,"Ruido",0,0.51
+"Andre Iguodala","SF","GSW",31,19.5,4,"Grupo 2",0.27,0.19
+"Joe Ingles","SF","UTA",45,24.9,7.2,"Ruido",0,0.67
+"Brandon Ingram","SF","NOP",55,34,22.7,"Ruido",0,0.67
+"Kyrie Irving","PG","BRK",29,37.6,27.4,"Grupo 2",0.36,0.07
+"Frank Jackson","PG","DET",53,22,10.6,"Grupo 2",0.01,0.4
+"Isaiah Jackson","PF","IND",36,15,8.3,"Grupo 1",0.12,0.04
+"Jaren Jackson Jr.","PF","MEM",78,27.3,16.3,"Grupo 3",0.03,0.3
+"Josh Jackson","SF","TOT",51,16.3,6.4,"Grupo 3",0.22,0.12
+"Reggie Jackson","SG","LAC",75,31.2,16.8,"Grupo 2",0.23,0.24
+"LeBron James","SF","LAL",56,37.2,30.3,"Grupo 2",0.06,0.37
+"Ty Jerome","SG","OKC",48,16.7,7.1,"Ruido",0,0.49
+"Cameron Johnson","PF","PHO",66,26.2,12.5,"Ruido",0,0.63
+"James Johnson","PF","BRK",62,19.2,5.5,"Grupo 3",0.19,0.15
+"Keldon Johnson","SF","SAS",75,31.9,17,"Grupo 3",0.16,0.19
+"Keon Johnson","SG","TOT",37,18.8,7.2,"Grupo 2",0.35,0.09
+"Stanley Johnson","PF","LAL",48,22.8,6.7,"Ruido",0,0.42
+"Nikola Joki?","C","DEN",74,33.5,27.1,"Ruido",0,0.68
+"Damian Jones","C","SAC",56,18.2,8.1,"Ruido",0,0.47
+"Derrick Jones Jr.","PF","CHI",51,17.6,5.6,"Ruido",0,0.51
+"Herbert Jones","PF","NOP",78,29.9,9.5,"Grupo 3",0.12,0.22
+"Tre Jones","PG","SAS",69,16.6,6,"Ruido",0,0.6
+"Tyus Jones","PG","MEM",73,21.2,8.7,"Ruido",0,0.72
+"Cory Joseph","PG","DET",65,24.6,8,"Grupo 2",0.11,0.34
+"Luke Kennard","SG","LAC",70,27.4,11.9,"Ruido",0,0.69
+"Corey Kispert","SF","WAS",77,23.4,8.2,"Ruido",0,0.49
+"Maxi Kleber","PF","DAL",59,24.6,7,"Ruido",0,0.71
+"John Konchar","SG","MEM",72,17.9,4.8,"Ruido",0,0.52
+"Furkan Korkmaz","SG","PHI",67,21.1,7.6,"Grupo 2",0.27,0.19
+"Vit Krejci","SG","OKC",30,23,6.2,"Ruido",0,0.45
+"Jonathan Kuminga","SF","GSW",70,16.9,9.3,"Grupo 3",0.09,0.25
+"Kyle Kuzma","PF","WAS",66,33.4,17.1,"Ruido",0,0.46
+"Jeremy Lamb","SF","TOT",56,16.7,7.3,"Ruido",0,0.41
+"Romeo Langford","SG","TOT",48,16.1,4.5,"Ruido",0,0.59
+"Zach LaVine","SF","CHI",67,34.7,24.4,"Grupo 2",0.1,0.35
+"Damion Lee","SG","GSW",63,19.9,7.4,"Ruido",0,0.47
+"Saben Lee","PG","DET",37,16.3,5.6,"Grupo 2",0.28,0.18
+"Alex Len","C","SAC",39,15.9,6,"Ruido",0,0.51
+"Caris LeVert","SG","TOT",58,30.7,17,"Grupo 2",0.24,0.22
+"Damian Lillard","PG","POR",29,36.4,24,"Ruido",0,0.73
+"Nassir Little","SF","POR",42,25.9,9.8,"Ruido",0,0.48
+"Kevon Looney","C","GSW",82,21.1,6,"Ruido",0,0.54
+"Robin Lopez","C","ORL",36,17,7.1,"Ruido",0,0.59
+"Kevin Love","PF","CLE",74,22.5,13.6,"Ruido",0,0.48
+"Kyle Lowry","PG","MIA",63,33.9,13.4,"Ruido",0,0.54
+"Trey Lyles","PF","TOT",75,20.5,10.5,"Grupo 3",0.06,0.27
+"Théo Maledon","PG","OKC",51,17.8,7.1,"Grupo 2",0.25,0.22
+"Terance Mann","SF","LAC",81,28.6,10.8,"Ruido",0,0.49
+"Tre Mann","PG","OKC",60,22.8,10.4,"Ruido",0,0.46
+"Lauri Markkanen","PF","CLE",61,30.8,14.8,"Ruido",0,0.45
+"Caleb Martin","SF","MIA",60,22.9,9.2,"Grupo 3",0.15,0.19
+"Cody Martin","SF","CHO",71,26.3,7.7,"Grupo 3",0.18,0.17
+"Kelan Martin","SF","TOT",30,15,5.7,"Ruido",0,0.42
+"Kenyon Martin Jr.","SF","HOU",79,21,8.8,"Grupo 3",0.25,0.09
+"Garrison Mathews","SG","HOU",65,26.3,10,"Ruido",0,0.65
+"Wesley Matthews","SG","MIL",49,20.4,5.1,"Ruido",0,0.72
+"Tyrese Maxey","PG","PHI",75,35.3,17.5,"Grupo 2",0.41,0
+"CJ McCollum","SG","TOT",62,34.6,22.1,"Grupo 2",0.19,0.27
+"T.J. McConnell","PG","IND",27,24.1,8.5,"Grupo 2",0.07,0.37
+"Jaden McDaniels","PF","MIN",70,25.8,9.2,"Ruido",0,0.57
+"Jalen McDaniels","SF","CHO",55,16.3,6.2,"Grupo 3",0.17,0.18
+"Doug McDermott","PF","SAS",51,24,11.3,"Ruido",0,0.56
+"JaVale McGee","C","PHO",74,15.8,9.2,"Ruido",0,0.47
+"Ben McLemore","SG","POR",64,20.1,10.2,"Ruido",0,0.77
+"De'Anthony Melton","SG","MEM",73,22.7,10.8,"Ruido",0,0.5
+"Chimezie Metu","C","SAC",60,21.3,8.9,"Grupo 3",0.08,0.26
+"Khris Middleton","SF","MIL",66,32.4,20.1,"Grupo 2",0.35,0.09
+"Patty Mills","PG","BRK",81,29,11.4,"Ruido",0,0.84
+"Shake Milton","PG","PHI",55,21.4,8.2,"Grupo 2",0.07,0.36
+"Davion Mitchell","PG","SAC",75,27.7,11.5,"Grupo 2",0.25,0.21
+"Donovan Mitchell","SG","UTA",67,33.8,25.9,"Grupo 2",0.12,0.33
+"Evan Mobley","PF","CLE",69,33.8,15,"Ruido",0,0.59
+"Malik Monk","SG","LAL",76,28.1,13.8,"Grupo 2",0.02,0.4
+"Ja Morant","PG","MEM",57,33.1,27.4,"Ruido",0,0.7
+"Marcus Morris","PF","LAC",54,29,15.4,"Grupo 2",0.07,0.37
+"Monte Morris","PG","DEN",75,29.9,12.6,"Grupo 2",0.05,0.38
+"Dejounte Murray","PG","SAS",68,34.8,21.1,"Grupo 2",0.04,0.39
+"Larry Nance Jr.","PF","TOT",46,22.6,7,"Ruido",0,0.43
+"Raul Neto","PG","WAS",70,19.6,7.5,"Grupo 2",0.01,0.4
+"Georges Niang","PF","PHI",76,22.8,9.2,"Ruido",0,0.67
+"Zeke Nnaji","PF","DEN",41,17,6.6,"Ruido",0,0.65
+"Nerlens Noel","C","NYK",25,22.5,3.4,"Ruido",0,0.79
+"Jaylen Nowell","SG","MIN",62,15.7,8.5,"Grupo 2",0.19,0.27
+"Jusuf Nurki?","C","POR",56,28.2,15,"Ruido",0,0.56
+"Jordan Nwora","SF","MIL",62,19.1,7.9,"Ruido",0,0.46
+"Royce O'Neale","SF","UTA",77,31.2,7.4,"Ruido",0,0.49
+"Chuma Okeke","PF","ORL",70,25,8.6,"Ruido",0,0.45
+"Onyeka Okongwu","C","ATL",48,20.7,8.2,"Grupo 1",0.12,0.04
+"Isaac Okoro","SF","CLE",67,29.6,8.8,"Grupo 3",0.21,0.14
+"Kelly Olynyk","C","DET",40,19.1,9.1,"Grupo 3",0.24,0.1
+"Cedi Osman","SF","CLE",66,22.2,10.7,"Ruido",0,0.46
+"Kelly Oubre Jr.","SF","CHO",76,26.3,15,"Ruido",0,0.46
+"Chris Paul","PG","PHO",65,32.9,14.7,"Ruido",0,0.78
+"Cameron Payne","PG","PHO",58,22,10.8,"Grupo 2",0.18,0.28
+"Gary Payton II","PG","GSW",71,17.6,7.1,"Ruido",0,0.43
+"Mason Plumlee","C","CHO",73,24.6,6.5,"Ruido",0,0.5
+"Jakob Poeltl","C","SAS",68,29,13.5,"Grupo 1",0.1,0.06
+"Aleksej Pokusevski","PF","OKC",61,20.2,7.6,"Grupo 3",0.25,0.09
+"Jordan Poole","SG","GSW",76,30,18.5,"Grupo 2",0.04,0.39
+"Kevin Porter Jr.","PG","HOU",61,31.3,15.6,"Grupo 2",0.06,0.37
+"Otto Porter Jr.","PF","GSW",63,22.2,8.2,"Ruido",0,0.53
+"Bobby Portis","C","MIL",72,28.2,14.6,"Ruido",0,0.52
+"Kristaps Porzi??is","PF","TOT",51,29,20.2,"Ruido",0,0.5
+"Dwight Powell","C","DAL",82,21.9,8.7,"Ruido",0,0.48
+"Norman Powell","SF","TOT",45,32.4,19,"Grupo 2",0.29,0.16
+"Joshua Primo","SG","SAS",50,19.3,5.8,"Grupo 3",0.01,0.31
+"Taurean Prince","PF","MIN",69,17.1,7.3,"Ruido",0,0.53
+"Immanuel Quickley","PG","NYK",78,23.1,11.3,"Grupo 2",0.05,0.38
+"Julius Randle","PF","NYK",72,35.3,20.1,"Ruido",0,0.44
+"Austin Reaves","SG","LAL",61,23.2,7.3,"Grupo 3",0,0.32
+"Cam Reddish","SF","TOT",49,20.7,10.1,"Grupo 2",0.19,0.28
+"Naz Reid","C","MIN",77,15.8,8.3,"Ruido",0,0.42
+"Josh Richardson","SG","TOT",65,24.6,10.2,"Grupo 2",0.03,0.39
+"Austin Rivers","SG","DEN",67,22.1,6,"Ruido",0,0.68
+"Duncan Robinson","SG","MIA",79,25.9,10.9,"Ruido",0,0.82
+"Mitchell Robinson","C","NYK",72,25.7,8.5,"Ruido",0,0.83
+"Jeremiah Robinson-Earl","C","OKC",49,22.2,7.5,"Ruido",0,0.61
+"Isaiah Roby","PF","OKC",45,21.1,10.1,"Grupo 3",0.15,0.2
+"Rajon Rondo","PG","TOT",39,17.9,4.8,"Grupo 2",0.09,0.35
+"Derrick Rose","PG","NYK",26,24.5,12,"Grupo 2",0.37,0.06
+"Terrence Ross","SG","ORL",63,23,10,"Grupo 2",0.12,0.33
+"Terry Rozier","SG","CHO",73,33.7,19.3,"Ruido",0,0.42
+"Ricky Rubio","PG","CLE",34,28.5,13.1,"Ruido",0,0.5
+"D'Angelo Russell","PG","MIN",65,32,18.1,"Ruido",0,0.68
+"Domantas Sabonis","C","TOT",62,34.5,18.9,"Ruido",0,0.65
+"Olivier Sarr","C","OKC",22,19.1,7,"Ruido",0,0.53
+"Tomáš Satoransk?","SG","TOT",55,16.5,3.6,"Grupo 2",0.41,0
+"Dennis Schröder","SG","TOT",64,28.7,13.5,"Grupo 2",0.23,0.23
+"Alperen Þengün","C","HOU",72,20.7,9.6,"Grupo 3",0.03,0.3
+"Landry Shamet","SG","PHO",69,20.8,8.3,"Ruido",0,0.7
+"Pascal Siakam","PF","TOR",68,37.9,22.8,"Ruido",0,0.64
+"Anfernee Simons","SG","POR",57,29.5,17.3,"Ruido",0,0.6
+"Marcus Smart","PG","BOS",71,32.3,12.1,"Grupo 2",0.1,0.34
+"Dennis Smith Jr.","PG","POR",37,17.2,5.6,"Grupo 2",0.33,0.12
+"Ish Smith","PG","TOT",65,17.3,6.3,"Grupo 2",0.37,0.06
+"Jalen Smith","PF","TOT",51,18.1,9.2,"Ruido",0,0.59
+"Tony Snell","SG","TOT",53,15.5,3.5,"Ruido",0,0.78
+"Lance Stephenson","SG","TOT",46,17.7,8.3,"Grupo 2",0.45,0
+"Lamar Stevens","PF","CLE",63,16.1,6.1,"Grupo 3",0.2,0.14
+"Isaiah Stewart","C","DET",71,25.6,8.3,"Ruido",0,0.64
+"Max Strus","SF","MIA",68,23.3,10.6,"Ruido",0,0.76
+"Jalen Suggs","PG","ORL",48,27.2,11.8,"Grupo 2",0.37,0.07
+"Keifer Sykes","PG","IND",32,17.7,5.6,"Grupo 2",0.03,0.39
+"Jae'Sean Tate","SF","HOU",78,26.4,11.8,"Grupo 3",0.01,0.31
+"Jayson Tatum","SF","BOS",76,35.9,26.9,"Grupo 2",0.31,0.21
+"Terry Taylor","SG","IND",33,21.6,9.6,"Grupo 1",0.19,0
+"Garrett Temple","SG","NOP",59,18.6,5.2,"Ruido",0,0.45
+"Daniel Theis","C","TOT",47,20.8,8.2,"Ruido",0,0.49
+"Cam Thomas","SG","BRK",67,17.6,8.5,"Grupo 2",0.26,0.21
+"Isaiah Thomas","PG","TOT",22,15.1,8.4,"Grupo 2",0.05,0.38
+"Klay Thompson","SG","GSW",32,29.4,20.4,"Grupo 2",0.06,0.37
+"Tristan Thompson","PF","TOT",57,15.7,6,"Ruido",0,0.48
+"Matisse Thybulle","SG","PHI",66,25.5,5.7,"Ruido",0,0.61
+"Obi Toppin","PF","NYK",72,17.1,9,"Grupo 3",0.25,0.09
+"Karl-Anthony Towns","C","MIN",74,33.5,24.6,"Ruido",0,0.55
+"Gary Trent Jr.","SG","TOR",70,35,18.3,"Ruido",0,0.42
+"P.J. Tucker","PF","MIA",71,27.9,7.6,"Ruido",0,0.46
+"Myles Turner","C","IND",42,29.4,12.9,"Ruido",0,0.6
+"Jonas Valan?i?nas","C","NOP",74,30.3,17.8,"Ruido",0,0.53
+"Jarred Vanderbilt","PF","MIN",74,25.4,6.9,"Grupo 1",0,0.15
+"Fred VanVleet","PG","TOR",65,37.9,20.3,"Ruido",0,0.53
+"Devin Vassell","SF","SAS",71,27.3,12.3,"Ruido",0,0.43
+"Gabe Vincent","PG","MIA",68,23.4,8.7,"Ruido",0,0.67
+"Nikola Vu?evi?","C","CHI",73,33.1,17.6,"Grupo 3",0.32,0
+"Dean Wade","PF","CLE",51,19.2,5.3,"Ruido",0,0.64
+"Franz Wagner","SF","ORL",79,30.7,15.2,"Ruido",0,0.42
+"Moritz Wagner","C","ORL",63,15.2,9,"Grupo 3",0.16,0.19
+"Kemba Walker","PG","NYK",37,25.6,11.6,"Ruido",0,0.42
+"Lonnie Walker IV","SG","SAS",70,23,12.1,"Grupo 2",0.36,0.09
+"Duane Washington Jr.","PG","IND",48,20.2,9.9,"Ruido",0,0.54
+"P.J. Washington","PF","CHO",65,27.2,10.3,"Ruido",0,0.54
+"Lindy Waters III","SG","OKC",25,18.6,8,"Ruido",0,0.79
+"Trendon Watford","SF","POR",48,18.1,7.6,"Grupo 3",0.06,0.27
+"Russell Westbrook","PG","LAL",78,34.3,18.5,"Ruido",0,0.51
+"Coby White","PG","CHI",61,27.5,12.7,"Grupo 2",0.15,0.33
+"Derrick White","SG","TOT",75,29.3,13.2,"Grupo 2",0.35,0.1
+"Hassan Whiteside","C","UTA",65,17.9,8.2,"Ruido",0,0.73
+"Aaron Wiggins","SG","OKC",50,24.2,8.3,"Grupo 3",0.22,0.12
+"Andrew Wiggins","SF","GSW",73,31.9,17.2,"Grupo 3",0.13,0.22
+"Brandon Williams","PG","POR",24,26.7,12.9,"Grupo 2",0.35,0.09
+"Grant Williams","PF","BOS",77,24.4,7.8,"Ruido",0,0.59
+"Kenrich Williams","SF","OKC",49,21.9,7.4,"Grupo 3",0.24,0.11
+"Robert Williams","C","BOS",61,29.6,10,"Ruido",0,0.6
+"Ziaire Williams","SF","MEM",62,21.7,8.1,"Ruido",0,0.46
+"Justise Winslow","SF","TOT",48,16.1,5.7,"Grupo 3",0.25,0.08
+"Christian Wood","C","HOU",68,30.8,17.9,"Grupo 3",0.21,0.14
+"Delon Wright","SG","ATL",77,18.9,4.4,"Grupo 2",0.36,0.09
+"Thaddeus Young","PF","TOT",52,16.3,6.2,"Grupo 3",0.29,0.03
+"Trae Young","PG","ATL",76,34.9,28.4,"Ruido",0,0.81
+"Ivica Zubac","C","LAC",76,24.4,10.3,"Grupo 1",0.15,0

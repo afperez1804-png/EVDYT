@@ -106,3 +106,86 @@ dimensiones explican el 54 % (31 % + 23.4 %).
 - En el biplot simétrico las distancias **fila-fila** y **columna-columna** se interpretan
   directamente; la cercanía fila-columna indica asociación de forma aproximada (dirección desde el origen).
 - Los totales son aproximados: los promedios vienen redondeados a un decimal antes de multiplicar por `G`.
+
+---
+
+# Parte 2: Análisis de Correspondencia + HDBSCAN (factoextra)
+
+Script: `analisis_ca_hdbscan.R` → resultados en `resultados_hdbscan/`.
+Paquetes adicionales: `dbscan` (HDBSCAN) y `ggrepel`, que se instala junto con `factoextra`.
+
+## Planteamiento
+
+1. **AC a nivel jugador:** tabla de contingencia **Jugador × Acción** (344 jugadores con ≥ 20 partidos
+   y ≥ 15 minutos por partido; las mismas 10 acciones). Las 5 posiciones se agregan como filas
+   suplementarias para orientar el mapa.
+2. **HDBSCAN** sobre las coordenadas de los jugadores en el plano principal del AC (Dim 1-2, 64.8 % de la
+   inercia). HDBSCAN busca regiones densas sin fijar el número de grupos y marca como **ruido** a los
+   jugadores que no pertenecen claramente a ninguna región.
+3. Gráficos con **factoextra**: `fviz_screeplot`, `fviz_ca_col`, `fviz_contrib`, `fviz_ca_row`,
+   `fviz_cluster`, `fviz_ca_biplot`.
+
+## AC Jugador × Acción
+
+χ² = 67 431, gl = 3087, p < 2.2e-16.
+
+| Dim | % inercia | % acumulado | Acciones que la definen |
+|---|---|---|---|
+| 1 | 43.5 % | 43.5 % | Reb. ofensivos (29 %), Asistencias (26 %), Triples (18 %), Reb. defensivos y Tapones (10 % c/u) |
+| 2 | 21.3 % | 64.8 % | Triples (41 %), Dobles (15 %), Tiros libres (15 %), Faltas (12 %) |
+| 3 | 13.1 % | 77.9 % | Asistencias (35 %), Tiros libres (32 %), Triples (15 %) |
+
+- **Dim 1:** juego exterior/creación (izquierda) vs. juego interior (derecha), igual que en la Parte 1.
+- **Dim 2:** el tirador de triples (arriba) frente al jugador que ataca el aro y saca tiros libres (abajo).
+- Las posiciones (suplementarias) se ordenan PG → SG → SF → PF → C sobre la Dim 1.
+
+## HDBSCAN
+
+Elección de `minPts` (tamaño mínimo de grupo): se probaron valores de 5 a 25 (tabla en
+`salida_consola.txt`). Con `minPts` entre 11 y 14 la solución es estable: **3 grupos**. Se usó
+`minPts = 12`. Con 3 o 4 dimensiones la nube queda muy dispersa y casi todo pasa a ser ruido,
+por eso se trabaja en el plano 1-2.
+
+![Biplot grupos](resultados_hdbscan/08_biplot_grupos.png)
+
+| Grupo | n | Posiciones | Perfil | Ejemplos |
+|---|---|---|---|---|
+| **1 – Pívots de pintura** | 16 | 11 C, 4 PF | Casi sin triples (0.3 %), 14 % rebote ofensivo, más tapones | Claxton, Zubac, Poeltl, Okongwu, Holmes |
+| **2 – Bases / creadores** | 101 | 40 PG, 41 SG, 14 SF | 18.7 % asistencias, más tiros libres y pérdidas | Maxey, Booker, Paul George, Bledsoe, Rose |
+| **3 – Aleros y grandes versátiles** | 51 | 20 SF, 16 PF, 10 C | Rebote defensivo alto (22.6 %), algo de triple, faltas | Vučević, Horford, Thaddeus Young, Wendell Carter Jr. |
+| **Ruido** | 176 | todas | Perfiles que no encajan en un núcleo denso | Durant, Harden, Lillard, DeRozan, Siakam |
+
+Promedios por partido:
+
+| Grupo | MP | PTS | 3P | TRB | AST | STL | BLK |
+|---|---|---|---|---|---|---|---|
+| 1 | 22.2 | 9.4 | 0.1 | 7.0 | 1.4 | 0.6 | 0.9 |
+| 2 | 27.1 | 13.6 | 1.7 | 3.9 | 3.7 | 0.9 | 0.3 |
+| 3 | 22.3 | 9.4 | 0.9 | 4.7 | 1.7 | 0.7 | 0.6 |
+| Ruido | 25.3 | 11.7 | 1.4 | 4.8 | 2.5 | 0.8 | 0.5 |
+
+**Interpretación**
+
+- Los grupos reproducen la escala exterior → interior, pero **no coinciden exactamente con las
+  posiciones**: el grupo 2 junta PG y SG (y algunos SF), y el grupo 3 mezcla SF, PF y C que juegan
+  parecido.
+- El **51 % de ruido** es un resultado en sí mismo: los perfiles de juego en la NBA forman un
+  **continuo**, no grupos bien separados. HDBSCAN solo encuentra núcleos densos de roles muy
+  "típicos".
+- Muchos de los jugadores de **ruido son estrellas** o especialistas con perfiles extremos. Los
+  *outlier scores* (GLOSH) más altos son tiradores puros (Wayne Ellington, Patty Mills, Duncan
+  Robinson, Danny Green), pívots de puro rebote y tapón (Mitchell Robinson, Nerlens Noel) y
+  creadores con perfil único (Trae Young, DeRozan, Jimmy Butler).
+
+El archivo `resultados_hdbscan/jugadores_grupos.csv` trae, para cada jugador, su grupo, la
+probabilidad de pertenencia y el *outlier score*.
+
+| Gráfico | Contenido |
+|---|---|
+| `01_scree.png` | Inercia por dimensión |
+| `02_columnas.png` | Acciones coloreadas por contribución |
+| `03/04_contrib_dim*.png` | Contribución de las acciones a Dim 1 y 2 |
+| `05_jugadores_cos2.png` | Jugadores coloreados por calidad de representación |
+| `06_hdbscan_arbol.png` | Árbol condensado de HDBSCAN |
+| `07_fviz_cluster.png` | Grupos con `fviz_cluster` (sin ruido) |
+| `08_biplot_grupos.png` | Biplot AC con jugadores coloreados por grupo |
