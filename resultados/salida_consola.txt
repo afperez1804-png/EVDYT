@@ -1,0 +1,212 @@
+Loading required package: ggplot2
+Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+
+===== Tabla de contingencia: Posición x Acción (temporada regular) =====
+   Triples Dobles Tiros libres Reb. ofens. Reb. defens. Asistencias Robos
+PG    6879  13431         8927        2455        12977       20589  4303
+SG    9778  13390         8107        3340        15095       14215  4628
+SF    6343  12190         7590        4056        14747        9264  3640
+PF    5426  13969         8725        5869        18859        8950  3436
+C     2164  16433         8355        9707        22244        7676  2770
+   Tapones Perdidas Faltas
+PG    1263     8186   8478
+SG    1580     7119  10223
+SF    1789     5397   8998
+PF    2918     5620   9920
+C     4047     5851  10704
+
+===== Perfiles fila (%) =====
+   Triples Dobles Tiros libres Reb. ofens. Reb. defens. Asistencias Robos
+PG     7.9   15.4         10.2         2.8         14.8        23.5   4.9
+SG    11.2   15.3          9.3         3.8         17.3        16.3   5.3
+SF     8.6   16.5         10.3         5.5         19.9        12.5   4.9
+PF     6.5   16.7         10.4         7.0         22.5        10.7   4.1
+C      2.4   18.3          9.3        10.8         24.7         8.5   3.1
+   Tapones Perdidas Faltas
+PG     1.4      9.4    9.7
+SG     1.8      8.1   11.7
+SF     2.4      7.3   12.2
+PF     3.5      6.7   11.9
+C      4.5      6.5   11.9
+
+===== Prueba Chi-cuadrado (Posición x Acción) =====
+
+	Pearson's Chi-squared test
+
+data:  tab_pos
+X-squared = 26074, df = 36, p-value < 2.2e-16
+
+Inercia total: 0.0617 
+null device 
+          1 
+
+===== AC 1: Valores propios (inercia por dimensión) =====
+      eigenvalue percentage of variance cumulative percentage of variance
+dim 1     0.0535                86.7537                           86.7537
+dim 2     0.0076                12.2985                           99.0521
+dim 3     0.0005                 0.7678                           99.8199
+dim 4     0.0001                 0.1801                          100.0000
+
+===== AC 1: Coordenadas de filas =====
+    Dim 1  Dim 2  Dim 3  Dim 4
+PG -0.295 -0.127 -0.006 -0.001
+SG -0.179  0.095  0.028  0.007
+SF -0.008  0.079 -0.015 -0.020
+PF  0.129  0.038 -0.031  0.013
+C   0.347 -0.069  0.019 -0.002
+
+===== AC 1: Contribución de filas (%) =====
+   Dim 1 Dim 2 Dim 3 Dim 4
+PG 33.64 43.92  1.69  0.05
+SG 12.34 24.52 34.55  7.89
+SF  0.02 14.50  8.03 59.93
+PF  6.19  3.69 39.04 31.28
+C  47.82 13.36 16.68  0.86
+
+===== AC 1: cos2 de filas =====
+   Dim 1 Dim 2 Dim 3 Dim 4
+PG 0.843 0.156 0.000 0.000
+SG 0.765 0.215 0.019 0.001
+SF 0.009 0.905 0.031 0.055
+PF 0.869 0.073 0.049 0.009
+C  0.959 0.038 0.003 0.000
+
+===== AC 1: Coordenadas de columnas =====
+              Dim 1  Dim 2  Dim 3  Dim 4
+Triples      -0.335  0.230  0.022  0.012
+Dobles        0.066 -0.013  0.002 -0.010
+Tiros libres -0.012 -0.003 -0.050 -0.004
+Reb. ofens.   0.471 -0.055  0.048 -0.005
+Reb. defens.  0.181  0.017 -0.012  0.008
+Asistencias  -0.347 -0.137  0.007  0.006
+Robos        -0.166  0.073 -0.005 -0.017
+Tapones       0.414 -0.038 -0.004  0.040
+Perdidas     -0.131 -0.046  0.015 -0.003
+Faltas        0.053  0.057  0.005 -0.009
+
+===== AC 1: Contribución de columnas (%) =====
+             Dim 1 Dim 2 Dim 3 Dim 4
+Triples      15.21 50.29  7.28  8.91
+Dobles        1.32  0.35  0.14 13.93
+Tiros libres  0.03  0.01 51.45  1.60
+Reb. ofens.  24.96  2.42 29.20  1.51
+Reb. defens. 12.14  0.80  5.75 10.63
+Asistencias  32.22 35.44  1.56  4.53
+Robos         2.28  3.12  0.21 11.67
+Tapones       8.80  0.52  0.09 38.70
+Perdidas      2.43  2.10  3.75  0.58
+Faltas        0.61  4.95  0.58  7.94
+
+===== AC 1: cos2 de columnas =====
+             Dim 1 Dim 2 Dim 3 Dim 4
+Triples      0.678 0.318 0.003 0.001
+Dobles       0.943 0.035 0.001 0.021
+Tiros libres 0.054 0.003 0.935 0.007
+Reb. ofens.  0.976 0.013 0.010 0.000
+Reb. defens. 0.985 0.009 0.004 0.002
+Asistencias  0.865 0.135 0.000 0.000
+Robos        0.829 0.161 0.001 0.009
+Tapones      0.983 0.008 0.000 0.009
+Perdidas     0.880 0.108 0.012 0.000
+Faltas       0.457 0.527 0.004 0.012
+
+===== AC 1: Filas suplementarias (Playoffs) =====
+               Dim 1  Dim 2  Dim 3  Dim 4
+PG (Playoffs) -0.251 -0.046 -0.064 -0.028
+SG (Playoffs) -0.146  0.090 -0.010  0.028
+SF (Playoffs) -0.051  0.088 -0.030 -0.026
+PF (Playoffs)  0.105  0.042 -0.009  0.002
+C (Playoffs)   0.348 -0.043  0.011 -0.006
+
+===== Prueba Chi-cuadrado (Equipo x Acción) =====
+
+	Pearson's Chi-squared test
+
+data:  tab_eq
+X-squared = 1963, df = 261, p-value < 2.2e-16
+
+
+===== AC 2: Valores propios =====
+      eigenvalue percentage of variance cumulative percentage of variance
+dim 1     0.0014                31.0338                           31.0338
+dim 2     0.0011                23.3642                           54.3980
+dim 3     0.0006                13.6796                           68.0776
+dim 4     0.0005                10.2335                           78.3112
+dim 5     0.0004                 8.3955                           86.7067
+dim 6     0.0003                 5.5353                           92.2420
+dim 7     0.0002                 3.6976                           95.9396
+dim 8     0.0001                 2.4548                           98.3944
+dim 9     0.0001                 1.6056                          100.0000
+
+===== AC 2: Contribución de columnas (%) =====
+             Dim 1 Dim 2
+Triples      33.68  0.12
+Dobles       40.27  4.24
+Tiros libres  1.43  0.09
+Reb. ofens.   2.47 57.26
+Reb. defens.  1.44  6.08
+Asistencias   3.73 11.04
+Robos         0.90  9.71
+Tapones       1.60  8.80
+Perdidas      8.68  0.90
+Faltas        5.81  1.75
+
+===== AC 2: Equipos con mayor contribución a Dim 1 y Dim 2 =====
+    Dim 1 Dim 2
+MEM 14.55 20.16
+SAS 14.26  0.57
+HOU  8.22  0.01
+PHO  7.01  4.02
+UTA  6.61  1.16
+NYK  6.22  5.00
+MIA  5.45  1.42
+GSW  5.27  0.38
+    Dim 1 Dim 2
+TOR  2.11 22.61
+MEM 14.55 20.16
+DEN  0.02  8.33
+CHI  4.90  6.49
+MIN  3.54  5.79
+NYK  6.22  5.00
+WAS  3.68  4.99
+PHO  7.01  4.02
+
+===== AC 2: Coordenadas de equipos (Dim 1-2) =====
+     Dim 1  Dim 2
+SAS -0.078 -0.013
+MEM -0.077  0.078
+PHO -0.054 -0.036
+CHI -0.047 -0.047
+WAS -0.040 -0.041
+NOP -0.037  0.025
+BRK -0.031 -0.008
+TOR -0.030  0.086
+IND -0.020  0.021
+CLE -0.017 -0.020
+SAC -0.011 -0.019
+LAL -0.010 -0.013
+CHO -0.005  0.001
+ATL -0.004 -0.014
+PHI -0.003 -0.022
+DEN  0.003 -0.052
+LAC  0.009 -0.020
+DET  0.010  0.033
+BOS  0.011  0.008
+OKC  0.014  0.010
+ORL  0.028 -0.027
+MIL  0.028 -0.013
+DAL  0.033 -0.020
+POR  0.038  0.026
+MIN  0.038  0.043
+GSW  0.047 -0.011
+MIA  0.049 -0.022
+NYK  0.052  0.041
+UTA  0.054  0.019
+HOU  0.060 -0.002
